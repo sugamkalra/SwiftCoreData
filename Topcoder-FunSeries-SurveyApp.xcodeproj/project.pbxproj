@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1507F48A1BE2238700AAB6C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507F4891BE2238700AAB6C9 /* AppDelegate.swift */; };
+		1507F48C1BE2238700AAB6C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507F48B1BE2238700AAB6C9 /* ViewController.swift */; };
+		1507F48F1BE2238700AAB6C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1507F48D1BE2238700AAB6C9 /* Main.storyboard */; };
+		1507F4921BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1507F4901BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyApp.xcdatamodeld */; };
+		1507F4941BE2238700AAB6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1507F4931BE2238700AAB6C9 /* Assets.xcassets */; };
+		1507F4971BE2238700AAB6C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1507F4951BE2238700AAB6C9 /* LaunchScreen.storyboard */; };
+		1507F4A21BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507F4A11BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppTests.swift */; };
+		1507F4AD1BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507F4AC1BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1507F49E1BE2238700AAB6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1507F47E1BE2238600AAB6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1507F4851BE2238600AAB6C9;
+			remoteInfo = "Topcoder-FunSeries-SurveyApp";
+		};
+		1507F4A91BE2238700AAB6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1507F47E1BE2238600AAB6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1507F4851BE2238600AAB6C9;
+			remoteInfo = "Topcoder-FunSeries-SurveyApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1507F4861BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Topcoder-FunSeries-SurveyApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1507F4891BE2238700AAB6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1507F48B1BE2238700AAB6C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1507F48E1BE2238700AAB6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1507F4911BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Topcoder_FunSeries_SurveyApp.xcdatamodel; sourceTree = "<group>"; };
+		1507F4931BE2238700AAB6C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1507F4961BE2238700AAB6C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1507F4981BE2238700AAB6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1507F49D1BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Topcoder-FunSeries-SurveyAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1507F4A11BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topcoder_FunSeries_SurveyAppTests.swift; sourceTree = "<group>"; };
+		1507F4A31BE2238700AAB6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1507F4A81BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Topcoder-FunSeries-SurveyAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1507F4AC1BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topcoder_FunSeries_SurveyAppUITests.swift; sourceTree = "<group>"; };
+		1507F4AE1BE2238700AAB6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1507F4831BE2238600AAB6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507F49A1BE2238700AAB6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507F4A51BE2238700AAB6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1507F47D1BE2238600AAB6C9 = {
+			isa = PBXGroup;
+			children = (
+				1507F4881BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp */,
+				1507F4A01BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppTests */,
+				1507F4AB1BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppUITests */,
+				1507F4871BE2238600AAB6C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1507F4871BE2238600AAB6C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1507F4861BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp.app */,
+				1507F49D1BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppTests.xctest */,
+				1507F4A81BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1507F4881BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp */ = {
+			isa = PBXGroup;
+			children = (
+				1507F4891BE2238700AAB6C9 /* AppDelegate.swift */,
+				1507F48B1BE2238700AAB6C9 /* ViewController.swift */,
+				1507F48D1BE2238700AAB6C9 /* Main.storyboard */,
+				1507F4931BE2238700AAB6C9 /* Assets.xcassets */,
+				1507F4951BE2238700AAB6C9 /* LaunchScreen.storyboard */,
+				1507F4981BE2238700AAB6C9 /* Info.plist */,
+				1507F4901BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyApp.xcdatamodeld */,
+			);
+			path = "Topcoder-FunSeries-SurveyApp";
+			sourceTree = "<group>";
+		};
+		1507F4A01BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1507F4A11BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppTests.swift */,
+				1507F4A31BE2238700AAB6C9 /* Info.plist */,
+			);
+			path = "Topcoder-FunSeries-SurveyAppTests";
+			sourceTree = "<group>";
+		};
+		1507F4AB1BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1507F4AC1BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppUITests.swift */,
+				1507F4AE1BE2238700AAB6C9 /* Info.plist */,
+			);
+			path = "Topcoder-FunSeries-SurveyAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1507F4851BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1507F4B11BE2238700AAB6C9 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyApp" */;
+			buildPhases = (
+				1507F4821BE2238600AAB6C9 /* Sources */,
+				1507F4831BE2238600AAB6C9 /* Frameworks */,
+				1507F4841BE2238600AAB6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Topcoder-FunSeries-SurveyApp";
+			productName = "Topcoder-FunSeries-SurveyApp";
+			productReference = 1507F4861BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1507F49C1BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1507F4B41BE2238700AAB6C9 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyAppTests" */;
+			buildPhases = (
+				1507F4991BE2238700AAB6C9 /* Sources */,
+				1507F49A1BE2238700AAB6C9 /* Frameworks */,
+				1507F49B1BE2238700AAB6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1507F49F1BE2238700AAB6C9 /* PBXTargetDependency */,
+			);
+			name = "Topcoder-FunSeries-SurveyAppTests";
+			productName = "Topcoder-FunSeries-SurveyAppTests";
+			productReference = 1507F49D1BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1507F4A71BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1507F4B71BE2238700AAB6C9 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyAppUITests" */;
+			buildPhases = (
+				1507F4A41BE2238700AAB6C9 /* Sources */,
+				1507F4A51BE2238700AAB6C9 /* Frameworks */,
+				1507F4A61BE2238700AAB6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1507F4AA1BE2238700AAB6C9 /* PBXTargetDependency */,
+			);
+			name = "Topcoder-FunSeries-SurveyAppUITests";
+			productName = "Topcoder-FunSeries-SurveyAppUITests";
+			productReference = 1507F4A81BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1507F47E1BE2238600AAB6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sugam Kalra";
+				TargetAttributes = {
+					1507F4851BE2238600AAB6C9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					1507F49C1BE2238700AAB6C9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1507F4851BE2238600AAB6C9;
+					};
+					1507F4A71BE2238700AAB6C9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1507F4851BE2238600AAB6C9;
+					};
+				};
+			};
+			buildConfigurationList = 1507F4811BE2238600AAB6C9 /* Build configuration list for PBXProject "Topcoder-FunSeries-SurveyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1507F47D1BE2238600AAB6C9;
+			productRefGroup = 1507F4871BE2238600AAB6C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1507F4851BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp */,
+				1507F49C1BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppTests */,
+				1507F4A71BE2238700AAB6C9 /* Topcoder-FunSeries-SurveyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1507F4841BE2238600AAB6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1507F4971BE2238700AAB6C9 /* LaunchScreen.storyboard in Resources */,
+				1507F4941BE2238700AAB6C9 /* Assets.xcassets in Resources */,
+				1507F48F1BE2238700AAB6C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507F49B1BE2238700AAB6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507F4A61BE2238700AAB6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1507F4821BE2238600AAB6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1507F4921BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyApp.xcdatamodeld in Sources */,
+				1507F48C1BE2238700AAB6C9 /* ViewController.swift in Sources */,
+				1507F48A1BE2238700AAB6C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507F4991BE2238700AAB6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1507F4A21BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1507F4A41BE2238700AAB6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1507F4AD1BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1507F49F1BE2238700AAB6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1507F4851BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp */;
+			targetProxy = 1507F49E1BE2238700AAB6C9 /* PBXContainerItemProxy */;
+		};
+		1507F4AA1BE2238700AAB6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1507F4851BE2238600AAB6C9 /* Topcoder-FunSeries-SurveyApp */;
+			targetProxy = 1507F4A91BE2238700AAB6C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1507F48D1BE2238700AAB6C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1507F48E1BE2238700AAB6C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1507F4951BE2238700AAB6C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1507F4961BE2238700AAB6C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1507F4AF1BE2238700AAB6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1507F4B01BE2238700AAB6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1507F4B21BE2238700AAB6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appirio.Topcoder-FunSeries-SurveyApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1507F4B31BE2238700AAB6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appirio.Topcoder-FunSeries-SurveyApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1507F4B51BE2238700AAB6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appirio.Topcoder-FunSeries-SurveyAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Topcoder-FunSeries-SurveyApp.app/Topcoder-FunSeries-SurveyApp";
+			};
+			name = Debug;
+		};
+		1507F4B61BE2238700AAB6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appirio.Topcoder-FunSeries-SurveyAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Topcoder-FunSeries-SurveyApp.app/Topcoder-FunSeries-SurveyApp";
+			};
+			name = Release;
+		};
+		1507F4B81BE2238700AAB6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appirio.Topcoder-FunSeries-SurveyAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Topcoder-FunSeries-SurveyApp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1507F4B91BE2238700AAB6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Appirio.Topcoder-FunSeries-SurveyAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Topcoder-FunSeries-SurveyApp";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1507F4811BE2238600AAB6C9 /* Build configuration list for PBXProject "Topcoder-FunSeries-SurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507F4AF1BE2238700AAB6C9 /* Debug */,
+				1507F4B01BE2238700AAB6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1507F4B11BE2238700AAB6C9 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507F4B21BE2238700AAB6C9 /* Debug */,
+				1507F4B31BE2238700AAB6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1507F4B41BE2238700AAB6C9 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507F4B51BE2238700AAB6C9 /* Debug */,
+				1507F4B61BE2238700AAB6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1507F4B71BE2238700AAB6C9 /* Build configuration list for PBXNativeTarget "Topcoder-FunSeries-SurveyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1507F4B81BE2238700AAB6C9 /* Debug */,
+				1507F4B91BE2238700AAB6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1507F4901BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1507F4911BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyApp.xcdatamodel */,
+			);
+			currentVersion = 1507F4911BE2238700AAB6C9 /* Topcoder_FunSeries_SurveyApp.xcdatamodel */;
+			path = Topcoder_FunSeries_SurveyApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1507F47E1BE2238600AAB6C9 /* Project object */;
+}
